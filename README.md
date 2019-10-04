@@ -4,4 +4,4 @@ This is a load calculator that is built with JavaScript, no frameworks just usin
 
 To view the site please go here:
 
-https://benjaminthedev.github.io/JavaScript-Loan-Calculator/
+https://benjaminthedev.github.io/JavaScript-Loan-Calculator/    

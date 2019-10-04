@@ -40,9 +40,9 @@ function calculateResults(){
         showError('Please check that you\'re using numbers');
     }
 }
-
-    //Showing the Error
+    
     function showError(error){
+        //Showing the Error
 
         //Hidden Results
         document.getElementById('results').style.display = 'none';
@@ -61,10 +61,9 @@ function calculateResults(){
 
         //Create text node and append to div
         errorDiv.appendChild(document.createTextNode(error));
-
+        
         //Insert Error Above Heading
         card.insertBefore(errorDiv, heading);
-
         setTimeout(clearError, 3000);
     }
   
